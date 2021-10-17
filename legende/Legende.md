@@ -1,13 +1,16 @@
 # Améliorations du rendu par rapport à Topo d’OsmAnd
 ## Sentiers, chemins, pistes agricoles et forestières type IGN
 ### Sentier type IGN France (`highway=path`) :
-- Traits noir plus large
-- Forme allongé
-- Adoucit ![](png/Adoucit.png)
-- Accès « non ou privé »
-- Traits rouge-marron ![](png/Traits-rouge-marron.png)
 
-Difficulté et visibilité des sentiers :
+| Légende                 | Image                    |
+|-------------------------|--------------------------|
+| Traits noir plus large  |  |
+| Forme allongé           |  |
+| Adouci                 | ![](jpg/Adoucit.jpg) |
+| Accès « non ou privé »  |  |
+| Traits rouge-marron     | ![](jpg/Traits-rouge-marron.jpg) |
+
+### Difficulté et visibilité des sentiers :
 Ces deux paramètres se combinent jusqu’à un certain zoom. Au zoom 18 (50 m) la visibilité est désactivée, il ne reste plus que la difficulté qui est affichée.
 Couleur selon la difficulté « Échelle CAS » (`sac_scale=*`) :
 - T1 noir discontinu
@@ -19,30 +22,24 @@ Couleur selon la difficulté « Échelle CAS » (`sac_scale=*`) :
 
 ### Visibilité du sentier (`trail_visibility=*`) :
 - Mauvais (`bad`) : pointillé
-- Horrible (`horrible`) : pointillé plus espacé
-- Non (`no`) : pointillé très espacé
+- Horrible (`horrible`) : pointillé plus espacés
+- Non (`no`) : pointillé très espacés
 
-|                                                                                                                      | T1          | T2          | T3          | T4          | T5          | T6          |
-|----------------------------------------------------------------------------------------------------------------------|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|:-----------:|
-| `trail_visibility=no`                                                                                                | ![](svg/n1.svg) | ![](svg/r1.svg) | ![](svg/r1.svg) | ![](svg/v1.svg) | ![](svg/v1.svg) | ![](svg/v1.svg) |
-| `trail_visibility=horrible`                                                                                          | ![](svg/n2.svg) | ![](svg/r2.svg) | ![](svg/r2.svg) | ![](svg/v2.svg) | ![](svg/v2.svg) | ![](svg/v2.svg) |
-| `trail_visibility=bad`                                                                                               | ![](svg/n3.svg) | ![](svg/r3.svg) | ![](svg/r4.svg) | ![](svg/v3.svg) | ![](svg/v3.svg) | ![](svg/v3.svg) |
-| `trail_visibility=intermediate`/`trail_visibility=good`/`trail_visibility=excellent` and `trail_visibility` disabled | ![](svg/n4.svg) | ![](svg/r4.svg) | ![](svg/r5.svg) | ![](svg/v5.svg) | ![](svg/v6.svg) | ![](svg/v4.svg) |
-| `trail_visibility=*` and `sac_scale=*` (CAS) disabled                                                                | ![](svg/n3.svg) | ![](svg/n3.svg) | ![](svg/n2.svg) | ![](svg/n2.svg) | ![](svg/n1.svg) | ![](svg/n1.svg) |
+![](jpg/Legende.jpg)
 
 ### Chemin/Chemin agricole/piste forestière type IGN France (`highway=track`) :
 
 | Légende                                                                                                         | Image                    |
 |-----------------------------------------------------------------------------------------------------------------|--------------------------|
-| Trait noir plein pour pour les grades 3, 4 et 5 (`tracktype=grade3`/`grade4`/`grade5`)                          | ![](png/tracktype-3-4-5.png) |
-| Trait blanc plein avec trait noir discontinu sur les côtés pour les grades 1 et 2 (`tracktype=grade1`/`grade2`) | ![](png/tracktype-1-2.png)   |
+| Trait noir plein pour pour les grades 3, 4 et 5 (`tracktype=grade3`/`grade4`/`grade5`)                          | ![](jpg/tracktype-3-4-5.jpg) |
+| Trait blanc plein avec trait noir discontinu sur les côtés pour les grades 1 et 2 (`tracktype=grade1`/`grade2`) | ![](jpg/tracktype-1-2.jpg)   |
 
 ### Accès « non ou privé » (`acces=private`/`no`) :
 
 - Traits rouge-marron pour les grades 3-4-5 (`tracktype=grade3`/`grade4`/`grade5`)
 - Trait blanc plein avec trait rouge discontinu sur les côtes pour les grades 1-2 (`tracktype=grade1`/`grade2`)
 
-![](png/access-private-no.png)
+![](jpg/Traits-rouge-marron.jpg)
 
 ### Options désactivables dans « masquer » :
 - Symboles « NR » des réserves naturelles (shader nr2)
@@ -145,4 +142,4 @@ Couleur selon la difficulté « Échelle CAS » (`sac_scale=*`) :
   - Texte arrêt de bus/trains
   - Désactivation de la visibilité des sentiers (seule la difficulté est visible T2/T3/T4/T5/T6)
 - **Zoom 19** – 20 m
-- Activation de certains textes dans les villes/villages/hameaux
+  - Activation de certains textes dans les villes/villages/hameaux
