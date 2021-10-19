@@ -5,7 +5,7 @@
 ### Sentier type IGN France (`highway=path`) :
 | Légende             | Apparence                                                                   |
 |---------------------|-----------------------------------------------------------------------------|
-| **Normal**<br>- Traits noir plus large<br>- Forme allongé<br>- Adouci  | ![](jpg/Adoucit.jpg)     |
+| **Normal**<br>- Traits noirs plus large<br>- Forme allongé<br>- Adouci  | ![](jpg/Adoucit.jpg)     |
 | **Accès « non ou privé »**<br>- Traits rouge-marron                    | ![](jpg/path-access.jpg) |
 
 
@@ -22,17 +22,23 @@ Ces deux paramètres se combinent jusqu’à un certain zoom. Au zoom 18 (50 m) 
 
 ### Visibilité du sentier (`trail_visibility=*`) :
 - Mauvais (`bad`) : pointillé
-- Horrible (`horrible`) : pointillé plus espacés
+- Horrible (`horrible`) : pointillés plus espacés
 - Non (`no`) : pointillé très espacés
 
 ![](jpg/Legende.jpg)
 
 ### Chemin/Chemin agricole/piste forestière type IGN France (`highway=track`) :
+#### Grades 1 et 2 (`tracktype=grade1`/`grade2`)
+| Légende                                                                                                         | Apparence                       |
+|-----------------------------------------------------------------------------------------------------------------|:-------------------------------:|
+| **Normal**<br>- Trait blanc plein avec traitillé noir sur les côtés | ![](jpg/tracktype-1-2.jpg)                                              |
+| **Accès « non ou privé »** (`acces=private`/`no`)<br>- Traits rouge-marron | ![](jpg/track-1-2-access.jpg)                                           |
 
-| Légende                                                                                                         | Accès normal                 | Accès « privé ou non »<br>(`acces=private`/`no`) |
-|-----------------------------------------------------------------------------------------------------------------|------------------------------|--|
-| **Grades 1 et 2** (`tracktype=grade1`/`grade2`)<br>- Normal : Trait blanc plein avec trait noir discontinu sur les côtés<br>- Accès restreint : Traits rouge-marron  | ![](jpg/tracktype-1-2.jpg) | ![](jpg/track-1-2-access.jpg) |
-| **Grades 3, 4 et 5** (`tracktype=grade3`/`grade4`/`grade5`)<br>- Normal : Trait noir plein<br>- Accès restreint : Trait blanc plein avec trait rouge discontinu sur les côtés | ![](jpg/tracktype-3-4-5.jpg) | ![](jpg/track-3-4-5-access.jpg) |
+#### Grades 3, 4 et 5 (`tracktype=grade3`/`grade4`/`grade5`)
+| Légende                                                                                                         | Apparence                       |
+|-----------------------------------------------------------------------------------------------------------------|:-------------------------------:|
+| **Normal**<br>- Trait noir plein | ![](jpg/tracktype-3-4-5.jpg)                                                                                      |
+| **Accès « non ou privé »** (`acces=private`/`no`)<br>- Trait blanc plein avec trait rouge discontinu sur les côtés | ![](jpg/track-3-4-5-access.jpg) |
 
 ### Options désactivables dans « masquer » :
 - Symboles « NR » des réserves naturelles (shader nr2)
@@ -45,7 +51,7 @@ Ces deux paramètres se combinent jusqu’à un certain zoom. Au zoom 18 (50 m) 
 - [x] **Orange** : loisirs (restaurant, bar, café, etc.)
 - [x] **Bleu** : utilitaire (poste, police, parking)
 - [x] **Gris** : transport (gare routière, train, distributeur de billets/banque et cimetière)
-- [x] **Rouge** : santé (docteur, Hopital, véto, dentiste, etc.)
+- [x] **Rouge** : santé (docteur, hôpital, véto, dentiste, etc.)
 - [x] **Vert** : pharmacie
 - [x] **Marron** : hygiène (toilette et douche publique)
 - [x] **Blanc** : pendant la rando (refuges, abris, cabanes, gîtes étapes, hôtels, point de vue, panneaux d’information, etc.)
@@ -55,21 +61,21 @@ Ces deux paramètres se combinent jusqu’à un certain zoom. Au zoom 18 (50 m) 
 - Image Zone rocheuses plus foncé (shader)
 - Image pierrier plus foncé (shader)
 - Couleur des bâtiments plus claire
-- Couleur des surface des villes/villages/hameaux plus claire
+- Couleur des surfaces des villes/villages/hameaux plus claire
 - Symboles (shader)
 
 ## Courbe de niveau :
 - Épaisseur des traits réduits au zoom 11-12-13
-- Couleur corrigé pour le marron clair
-- Couleur ajouté (Orange et noir)
+- Couleur corrigée pour le marron clair
+- Couleur ajoutée (orange et noir)
 - Réglage « Rando » supplémentaire pour la densité (type IGN France)
 - Réglage « Rando » supplémentaire pour l’épaisseur (type IGN France)
 - Suppression de petits traits inutiles
 
 ## Texte :
-- Texte marrons plus grand et fin ainsi qu’un halo blanc peu opaque pour les montagnes, crêtes et couloirs
+- Texte marron plus grand et fin ainsi qu’un halo blanc peu opaque pour les montagnes, crêtes et couloirs
 - Texte vert plus grand et fin ainsi qu’un halo blanc peu opaque pour les vallées et gorges
-- Taille du texte des villages , hameaux, lieux-dits adaptés en fonction du zoom
+- Taille du texte des villages, hameaux, lieux-dits adaptés en fonction du zoom
 - Taille du texte des sommets, cols, mountain pass adaptés en fonction du zoom
 - Taille du texte des courbes de niveaux adaptés en fonction du zoom
 - Texte des pierriers
