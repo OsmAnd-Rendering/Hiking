@@ -1,4 +1,4 @@
-﻿<renderingStyle name="Hiking" depends="" defaultColor="#ffffff" version="1">
+<renderingStyle name="Hiking" depends="" defaultColor="#ffffff" version="1">
 
 
 
@@ -2700,23 +2700,7 @@
 						<case minzoom="17" nameTag="" nameTag2="ele" textSize="15"/>
 						<case minzoom="17" nameTag="ele" textSize="15"/>
 					</case>
-					<case minzoom="12" tag="natural" value="saddle" textOrder="85" textBold="false">
-						<case maxzoom="12" nameTag="ele" textSize="10"/>
-						<case minzoom="13" maxzoom="13" nameTag="ele" textSize="11"/>
-						<case minzoom="14" maxzoom="14" nameTag="ele" textSize="12"/>
-						<case minzoom="15" maxzoom="16" nameTag="ele" textSize="13"/>
-						<case minzoom="17" nameTag="" nameTag2="ele" textBold="true" textSize="15"/>
-						<case minzoom="17" nameTag="ele" textBold="true" textSize="15"/>
-					</case>
-					<case minzoom="12" tag="natural" value="saddle" textOrder="85" textBold="false">
-						<case minzoom="12" nameTag="rtsa_scale" textSize="10"/>
-						<case minzoom="13" maxzoom="13" nameTag="rtsa_scale" textSize="11"/>
-						<case minzoom="14" maxzoom="14" nameTag="rtsa_scale" textSize="12"/>
-						<case minzoom="15" maxzoom="16" nameTag="rtsa_scale" textSize="13"/>
-						<case minzoom="17" nameTag="" nameTag2="rtsa_scale" textBold="true" textSize="15"/>
-						<case minzoom="17" nameTag="rtsa_scale" textBold="true" textSize="15"/>
-					</case>
-					<case minzoom="12" tag="mountain_pass" value="yes" textOrder="84" textBold="false">
+					<case minzoom="12" tag="natural" value="saddle" textOrder="100" textBold="false">
 						<case maxzoom="12" nameTag="ele" textSize="10"/>
 						<case minzoom="13" maxzoom="13" nameTag="ele" textSize="11"/>
 						<case minzoom="14" maxzoom="14" nameTag="" nameTag2="ele" textSize="12"/>
@@ -2726,7 +2710,27 @@
 						<case minzoom="17" nameTag="" nameTag2="ele" textBold="true" textSize="15"/>
 						<case minzoom="17" nameTag="ele" textBold="true" textSize="15"/>
 					</case>
-					<case minzoom="12" tag="mountain_pass" value="yes" textOrder="84" textBold="false">
+					<case minzoom="12" tag="natural" value="saddle" textOrder="100" textBold="false">
+						<case minzoom="12" nameTag="rtsa_scale" textSize="10"/>
+						<case minzoom="13" maxzoom="13" nameTag="rtsa_scale" textSize="11"/>
+						<case minzoom="14" maxzoom="14" nameTag="" nameTag2="rtsa_scale" textSize="12"/>
+						<case minzoom="14" maxzoom="14" nameTag="rtsa_scale" textSize="12"/>
+						<case minzoom="15" maxzoom="16" nameTag="" nameTag2="rtsa_scale" textSize="13"/>
+						<case minzoom="15" maxzoom="16" nameTag="rtsa_scale" textSize="13"/>
+						<case minzoom="17" nameTag="" nameTag2="rtsa_scale" textBold="true" textSize="15"/>
+						<case minzoom="17" nameTag="rtsa_scale" textBold="true" textSize="15"/>
+					</case>
+					<case minzoom="12" tag="mountain_pass" value="yes" textOrder="99" textBold="false">
+						<case maxzoom="12" nameTag="ele" textSize="10"/>
+						<case minzoom="13" maxzoom="13" nameTag="ele" textSize="11"/>
+						<case minzoom="14" maxzoom="14" nameTag="" nameTag2="ele" textSize="12"/>
+						<case minzoom="14" maxzoom="14" nameTag="ele" textSize="12"/>
+						<case minzoom="15" maxzoom="16" nameTag="" nameTag2="ele" textSize="13"/>
+						<case minzoom="15" maxzoom="16" nameTag="ele" textSize="13"/>
+						<case minzoom="17" nameTag="" nameTag2="ele" textBold="true" textSize="15"/>
+						<case minzoom="17" nameTag="ele" textBold="true" textSize="15"/>
+					</case>
+					<case minzoom="12" tag="mountain_pass" value="yes" textOrder="99" textBold="false">
 						<case minzoom="12" nameTag="rtsa_scale" textSize="10"/>
 						<case minzoom="13" maxzoom="13" nameTag="rtsa_scale" textSize="11"/>
 						<case minzoom="14" maxzoom="14" nameTag="" nameTag2="rtsa_scale" textSize="12"/>
@@ -2763,8 +2767,7 @@
 						<apply_if minzoom="17" textSize="12"/>
 					</switch>
 					<case minzoom="15" textSize="12" tag="natural" value="cliff" textOnPath="true" textHaloRadius="3" textOrder="43" textBold="false"/>
-					<!--<case minzoom="12" textSize="15" tag="natural" value="gorge" textColor="#356B25" textHaloColor="#aaffffff" textOnPath="true" textOrder="30"/>-->
-					<case minzoom="12" textSize="12" tag="natural" value="couloir" textHaloColor="#aaffffff" textOnPath="true" textOrder="30" textDy="0" textBold="false"/>
+					<case minzoom="12" textSize="15" tag="natural" value="couloir" textHaloColor="#aaffffff" textOnPath="true" textOrder="30" textDy="0" textBold="false"/>
 					<switch>
 						<case tag="region:type" value="mountain_area" nameTag="" textOnPath="true"/>
 						<case tag="natural" value="plateau" nameTag=""/>
