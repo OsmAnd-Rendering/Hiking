@@ -518,10 +518,6 @@
 		<case nightMode="true" attrColorValue="#ffffff"/>
 		<case attrColorValue="#000000"/>
 	</renderingAttribute>
-	<renderingAttribute name="abandonedHighwayTrackColor">
-		<case nightMode="true" attrColorValue="#93866C"/>
-		<case attrColorValue="#55996600"/>
-	</renderingAttribute>
 	<renderingAttribute name="pathLowZoomColor">
 		<case nightMode="true" attrColorValue="#eeeeee"/>
 		<case attrColorValue="#000000"/>
