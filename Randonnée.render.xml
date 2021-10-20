@@ -39,6 +39,7 @@
 	<renderingProperty attr="hideNatureReserveSymbol" name="Symboles des Réserves Naturelles" description="Masquer le logo NR des Réserves Naturelles" type="boolean" possibleValues="" category="hide"/>
 	<renderingProperty attr="hideNatureReserveColor" name="Couleur des Réserves Naturelles" description="Masquer la couleur de remplissage des Réserves Naturelles" type="boolean" possibleValues="" category="hide"/>
 	<renderingProperty attr="hidepathvisibility" name="visibilité des sentiers" description="Masquer la visibilité des sentiers (la difficulté reste visible)" type="boolean" possibleValues="" category="hide"/>
+	<renderingProperty attr="hidePOIpre-activated" name="POI pré-activé" description="Masquer POI pré-activé" type="boolean" possibleValues="" category="hide"/>
 	<renderingProperty attr="hidelanduseshader" name="Symboles des types de sol" description="Masquer les symboles d'occupation du sol (bois, prairies, brousailles, etc...)" type="boolean" possibleValues="" category="hide"/>
   <renderingProperty attr="hideHouseNumbers" name="Hide house numbers" description="Hide house numbers" type="boolean" possibleValues="" category="hide"/>
 
@@ -517,10 +518,6 @@
 	<renderingAttribute name="trackPathHighwayOnewayArrowsColor">
 		<case nightMode="true" attrColorValue="#ffffff"/>
 		<case attrColorValue="#000000"/>
-	</renderingAttribute>
-	<renderingAttribute name="abandonedHighwayTrackColor">
-		<case nightMode="true" attrColorValue="#93866C"/>
-		<case attrColorValue="#55996600"/>
 	</renderingAttribute>
 	<renderingAttribute name="pathLowZoomColor">
 		<case nightMode="true" attrColorValue="#eeeeee"/>
@@ -2704,23 +2701,7 @@
 						<case minzoom="17" nameTag="" nameTag2="ele" textSize="15"/>
 						<case minzoom="17" nameTag="ele" textSize="15"/>
 					</case>
-					<case minzoom="12" tag="natural" value="saddle" textOrder="85" textBold="false">
-						<case maxzoom="12" nameTag="ele" textSize="10"/>
-						<case minzoom="13" maxzoom="13" nameTag="ele" textSize="11"/>
-						<case minzoom="14" maxzoom="14" nameTag="ele" textSize="12"/>
-						<case minzoom="15" maxzoom="16" nameTag="ele" textSize="13"/>
-						<case minzoom="17" nameTag="" nameTag2="ele" textBold="true" textSize="15"/>
-						<case minzoom="17" nameTag="ele" textBold="true" textSize="15"/>
-					</case>
-					<case minzoom="12" tag="natural" value="saddle" textOrder="85" textBold="false">
-						<case minzoom="12" nameTag="rtsa_scale" textSize="10"/>
-						<case minzoom="13" maxzoom="13" nameTag="rtsa_scale" textSize="11"/>
-						<case minzoom="14" maxzoom="14" nameTag="rtsa_scale" textSize="12"/>
-						<case minzoom="15" maxzoom="16" nameTag="rtsa_scale" textSize="13"/>
-						<case minzoom="17" nameTag="" nameTag2="rtsa_scale" textBold="true" textSize="15"/>
-						<case minzoom="17" nameTag="rtsa_scale" textBold="true" textSize="15"/>
-					</case>
-					<case minzoom="12" tag="mountain_pass" value="yes" textOrder="84" textBold="false">
+					<case minzoom="12" tag="natural" value="saddle" textOrder="100" textBold="false">
 						<case maxzoom="12" nameTag="ele" textSize="10"/>
 						<case minzoom="13" maxzoom="13" nameTag="ele" textSize="11"/>
 						<case minzoom="14" maxzoom="14" nameTag="" nameTag2="ele" textSize="12"/>
@@ -2730,7 +2711,27 @@
 						<case minzoom="17" nameTag="" nameTag2="ele" textBold="true" textSize="15"/>
 						<case minzoom="17" nameTag="ele" textBold="true" textSize="15"/>
 					</case>
-					<case minzoom="12" tag="mountain_pass" value="yes" textOrder="84" textBold="false">
+					<case minzoom="12" tag="natural" value="saddle" textOrder="100" textBold="false">
+						<case minzoom="12" nameTag="rtsa_scale" textSize="10"/>
+						<case minzoom="13" maxzoom="13" nameTag="rtsa_scale" textSize="11"/>
+						<case minzoom="14" maxzoom="14" nameTag="" nameTag2="rtsa_scale" textSize="12"/>
+						<case minzoom="14" maxzoom="14" nameTag="rtsa_scale" textSize="12"/>
+						<case minzoom="15" maxzoom="16" nameTag="" nameTag2="rtsa_scale" textSize="13"/>
+						<case minzoom="15" maxzoom="16" nameTag="rtsa_scale" textSize="13"/>
+						<case minzoom="17" nameTag="" nameTag2="rtsa_scale" textBold="true" textSize="15"/>
+						<case minzoom="17" nameTag="rtsa_scale" textBold="true" textSize="15"/>
+					</case>
+					<case minzoom="12" tag="mountain_pass" value="yes" textOrder="99" textBold="false">
+						<case maxzoom="12" nameTag="ele" textSize="10"/>
+						<case minzoom="13" maxzoom="13" nameTag="ele" textSize="11"/>
+						<case minzoom="14" maxzoom="14" nameTag="" nameTag2="ele" textSize="12"/>
+						<case minzoom="14" maxzoom="14" nameTag="ele" textSize="12"/>
+						<case minzoom="15" maxzoom="16" nameTag="" nameTag2="ele" textSize="13"/>
+						<case minzoom="15" maxzoom="16" nameTag="ele" textSize="13"/>
+						<case minzoom="17" nameTag="" nameTag2="ele" textBold="true" textSize="15"/>
+						<case minzoom="17" nameTag="ele" textBold="true" textSize="15"/>
+					</case>
+					<case minzoom="12" tag="mountain_pass" value="yes" textOrder="99" textBold="false">
 						<case minzoom="12" nameTag="rtsa_scale" textSize="10"/>
 						<case minzoom="13" maxzoom="13" nameTag="rtsa_scale" textSize="11"/>
 						<case minzoom="14" maxzoom="14" nameTag="" nameTag2="rtsa_scale" textSize="12"/>
@@ -3633,7 +3634,7 @@
 			  <case tag="tourism" value="motel" icon="topo_motel"/>
 			  <apply shield="white_round_shield"/>
 			</switch>
-			<switch minzoom="12" iconOrder="80">
+			<switch hidePOIpre-activated="false" minzoom="12" iconOrder="80">
 				<case tag="public_transport" value="station" icon="amenity_bus_station"/>
 				<case minzoom="16" tag="landuse" value="cemetery" icon="grave"/>
 				<case minzoom="16" tag="railway" value="station" icon="railway_station"/>
@@ -3641,7 +3642,7 @@
 				<case tag="amenity" value="atm" icon="amenity_atm" iconOrder="50"/>
 				<apply shield="gray_round_shield"/>
 			</switch>
-			<switch minzoom="12" iconOrder="60">
+			<switch hidePOIpre-activated="false" minzoom="12" iconOrder="60">
 				<case minzoom="18" tag="amenity" value="parking" icon="amenity_parking" iconOrder="200"/>
         <case tag="amenity" value="police" icon="amenity_police"/>
         <case tag="amenity" value="telephone" icon="amenity_telephone"/>
@@ -3651,12 +3652,12 @@
         <case tag="office" value="diplomatic" icon="amenity_embassy"/>
 				<apply shield="blue_round_shield"/>
 			</switch>
-		  <switch minzoom="12" iconOrder="60">
+		  <switch hidePOIpre-activated="false" minzoom="12" iconOrder="60">
         <case tag="amenity" value="toilets" icon="amenity_toilets"/>
         <case tag="amenity" value="shower" icon="shower"/>
 				<apply shield="brown_round_shield"/>
 			</switch>
-		  <switch minzoom="12" iconOrder="60">
+		  <switch hidePOIpre-activated="false" minzoom="12" iconOrder="60">
         <case tag="amenity" value="marketplace" icon="amenity_marketplace" iconOrder="51"/>
         <case tag="shop" value="supermarket" icon="shop_supermarket" iconOrder="50"/>
         <case tag="shop" value="outdoor" icon="outdoor"/>
@@ -3673,7 +3674,7 @@
         <case tag="shop" value="chocolate" icon="chocolate"/>
 				<apply shield="purple_round_shield"/>
 			</switch>
-			<switch minzoom="12" iconOrder="80">
+			<switch hidePOIpre-activated="false" minzoom="12" iconOrder="80">
 				<case tag="amenity" value="hospital" icon="amenity_hospital"/>
         <case tag="amenity" value="veterinary" icon="amenity_veterinary"/>
         <case tag="amenity" value="doctors" icon="amenity_doctors"/>
@@ -3692,13 +3693,13 @@
         <case tag="healthcare" value="" icon="healthcare"/>
 				<apply shield="red_round_shield"/>
 			</switch>
-			<switch minzoom="12" iconOrder="70">
+			<switch hidePOIpre-activated="false" minzoom="12" iconOrder="70">
         <case tag="shop" value="medical_supply" icon="medical_supply" iconOrder="53"/>
         <case tag="amenity" value="pharmacy" icon="amenity_pharmacy" iconOrder="54"/>
         <case tag="emergency" value="defibrillator" icon="defibrillator"/>
 				<apply shield="green_round_shield"/>
 			</switch>
-		  <switch minzoom="16" iconOrder="80">
+		  <switch hidePOIpre-activated="false" minzoom="16" iconOrder="80">
 		    <case tag="amenity" value="waste_basket" icon="waste_basket2" shield="waste_basket_shield"/>
 		    <case tag="amenity" value="waste_disposal" icon="waste_disposal" shield="waste_disposal_shield"/>
 				<case tag="amenity" value="recycling">
@@ -3709,7 +3710,7 @@
 					<case icon="amenity_recycling" shield="recycling_shield"/>
 				</case>
 			</switch>
-		  <switch minzoom="12" iconOrder="80">
+		  <switch hidePOIpre-activated="false" minzoom="12" iconOrder="80">
         <case tag="amenity" value="restaurant" icon="amenity_restaurant"/>
         <case tag="amenity" value="cafe" icon="amenity_cafe"/>
         <case tag="amenity" value="fast_food" icon="amenity_fast_food"/>
