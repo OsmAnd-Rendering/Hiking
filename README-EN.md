@@ -30,4 +30,4 @@ Works on Android and iOS.
 
 ---
 ## ➡️ [Report or suggest](https://github.com/Hades1503/OsmAnd_Hiking_Map/issues/new)
-## ➡️ [Map key](legende/Légende.md)
+## ➡️ [Map legend](legende/Légende.md)
