@@ -26,8 +26,10 @@ Applicable sur Android et iOS.
 ### Annexes
 - 🇬🇧 [Rendering — OsmAnd](https://www.osmand.net/build_it#rendering)
 - 🇬🇧 [Map Rendering style - .render.xml — OsmAnd Docs](https://docs.osmand.net/en/main@latest/development/osmand-file-formats/osmand-rendering-style)
-- 🇫🇷 [Style pour OsmAnd](https://osmtopo.blogspot.com/2021/02/style-pour-osmand.html?m=1)
+- 🇫🇷 [Style pour OsmAnd axé sur l'utilisation en moto tout terrain](https://osmtopo.blogspot.com/2021/02/style-pour-osmand.html?m=1)
 
 ---
-## ➡️ [Signalement ou suggestion](https://github.com/Hades1503/OsmAnd_Hiking_Map/issues/new)
+
 ## ➡️ [Légende](legende/Légende.md)
+## ➡️ [Liste des améliorations](liste-des-ameliorations/Liste des améliorations.md)
+## ➡️ [Signalement ou suggestion](https://github.com/Hades1503/OsmAnd_Hiking_Map/issues/new)
