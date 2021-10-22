@@ -3,6 +3,16 @@
 - 🇫🇷 **[Français](README.md)**<br>
 🇬🇧 [English](README-EN.md)
 
+
+<p float="left">
+  <img src="https://raw.githubusercontent.com/Hades1503/OsmAnd_Hiking_Map/Liste%20des%20améliorations/Screenshots/Hiking/sample7.jpeg" width="250" />
+  <img src="https://raw.githubusercontent.com/Hades1503/OsmAnd_Hiking_Map/Liste%20des%20améliorations/Screenshots/Hiking/sample9.jpeg" width="250" />
+  <img src="https://raw.githubusercontent.com/Hades1503/OsmAnd_Hiking_Map/Liste%20des%20améliorations/Screenshots/Hiking/sample14.jpeg" width="250" />
+  <img src="https://raw.githubusercontent.com/Hades1503/OsmAnd_Hiking_Map/Liste%20des%20améliorations/Screenshots/Hiking/sample1.jpeg" width="250" />
+  <img src="https://raw.githubusercontent.com/Hades1503/OsmAnd_Hiking_Map/Liste%20des%20améliorations/Screenshots/Hiking/sample2.jpeg" width="250" />
+</p>
+
+
 ## Installer le rendu
 Applicable sur Android et iOS.
 
@@ -31,5 +41,5 @@ Applicable sur Android et iOS.
 ---
 
 ## ➡️ [Légende](legende/Légende.md)
-## ➡️ [Liste des améliorations](liste-des-ameliorations/Liste des améliorations.md)
+## ➡️ [Liste des améliorations](Liste%20des%20am%C3%A9liorations/Liste%20des%20améliorations.md)
 ## ➡️ [Signalement ou suggestion](https://github.com/Hades1503/OsmAnd_Hiking_Map/issues/new)
