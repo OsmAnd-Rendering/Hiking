@@ -17,20 +17,8 @@ Ce style est basé sur le style Topo d'OsmAnd, il améliore entre autres la lisi
 - Couleur des occupations du sol et de l’eau
 - Réserves naturelles 
 - Couleur opaque pour les itinéraires basés sur les symboles OSMC
+- Réglages supplémentaires
 
-**Réglages supplémentaires :**
-
-- Réglages « masquer »:
-  - Symboles des réserves naturelles
-  - Couleur des réserves naturelles 
-  - Visibilité des sentiers 
-  - POI pré-activé 
-  - Symboles occupations du sol 
-
-**Réglages lignes de contour :**
-  - Densité supplémentaire 
-  - Épaisseur supplémentaire 
- 
 
 <p float="left">
   <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample7.png" width="250" />
