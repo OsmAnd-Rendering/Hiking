@@ -5,12 +5,12 @@
 
 
 <p float="left">
-  <img src="https://raw.githubusercontent.com/Hades1503/OsmAnd_Hiking_Map/Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample7.png" width="250" />
-  <img src="https://raw.githubusercontent.com/Hades1503/OsmAnd_Hiking_Map/Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample9.png" width="250" />
-  <img src="https://raw.githubusercontent.com/Hades1503/OsmAnd_Hiking_Map/Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample14.png" width="250" />
-  <img src="https://raw.githubusercontent.com/Hades1503/OsmAnd_Hiking_Map/Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample1.png" width="250" />
-  <img src="https://raw.githubusercontent.com/Hades1503/OsmAnd_Hiking_Map/Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample2.png" width="250" />
-  <img src="https://raw.githubusercontent.com/Hades1503/OsmAnd_Hiking_Map/Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample2.png" width="250" />
+  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample7.png" width="250" />
+  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample9.png" width="250" />
+  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample14.png" width="250" />
+  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample1.png" width="250" />
+  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample2.png" width="250" />
+  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample2.png" width="250" />
 </p>
 
 
