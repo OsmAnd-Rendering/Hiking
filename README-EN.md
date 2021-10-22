@@ -3,6 +3,17 @@
 - 🇬🇧 **[English](README-EN.md)**<br>
 🇫🇷 [Français](README.md)
 
+
+<p float="left">
+  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample7.png" width="250" />
+  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample9.png" width="250" />
+  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample14.png" width="250" />
+  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample1.png" width="250" />
+  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample3.png" width="250" />
+  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample2.png" width="250" />
+</p>
+
+
 ## Install the render
 Works on Android and iOS.
 
@@ -29,5 +40,6 @@ Works on Android and iOS.
 - 🇫🇷 [Style pour OsmAnd](https://osmtopo.blogspot.com/2021/02/style-pour-osmand.html?m=1)
 
 ---
-## ➡️ [Report or suggest](https://github.com/Hades1503/OsmAnd_Hiking_Map/issues/new)
 ## ➡️ [Map legend](legende/Légende.md)
+## ➡️ [List of improvements](Liste%20des%20am%C3%A9liorations/List%20of%20improvements.md)
+## ➡️ [Report or suggest](https://github.com/Hades1503/OsmAnd_Hiking_Map/issues/new)
