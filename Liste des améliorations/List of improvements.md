@@ -99,50 +99,50 @@ What has changed:
 - Opaque color for routes based on OSMC symbols
 
 # Display order according to zoom:
-- ** Zoom 7 ** - 100 km
+- **Zoom 7** - 100 km
   - Regions
-- ** Zoom 10 ** - 10 km
+- **Zoom 10** - 10 km
   - Villages
-- ** Zoom 11 ** - 5 km
+- **Zoom 11** - 5 km
   - Main peaks icon
-- ** Zoom 12 ** - 2 km
+- **Zoom 12** - 2 km
   - Very thin marked trails (footpath / track / tertiary road)
   - Hamlets / localities
   - Icon summit, pass and mountain_pass + Altitude
   - Text valleys and ridges
-- ** Zoom 13 ** - 1 km
+- **Zoom 13** - 1 km
   - Trails (footpath / track / tertiary road), view of hamlets / localities
   - visibility of the trails
   - difficulty of the trails
   - Text level curve of 100 m on the curve
   - Shelters / shelters icon
   - Text + summit altitudes
-- ** Zoom 14 ** - 500 m
+- **Zoom 14** - 500 m
   - Text of refuges
   - Land use icons
   - Text level curve 100 and 50 m horizontally
   - Wind icon
   - Text of the scree
-- ** Zoom 15 ** - 200 m
+- **Zoom 15** - 200 m
   - Text level curve 100 and 50 m horizontally
   - Text of mountain_pass + altitude
   - Icon of mini markets, bar / restaurant, etc.
   - Land use icon
-- ** Zoom 16 ** - 200 m
+- **Zoom 16** - 200 m
   - Text contour line 100, 50, 20 and 10 m on the curve in bold
   - Bigger wind icon
   - Corridor text (mountain)
   - Text of sources
   - Altitudes information panels
   - Icons surrounded by a white circle for POIs spotting / interesting during the hike (ex: ruins, caves, mines, antennas, etc.)
-- ** Zoom 17 ** - 100 m
+- **Zoom 17** - 100 m
   - Contour line in solid line (better visibility in rocky areas)
   - Pass text + altitude
   - Text of information panels + altitudes
-- ** Zoom 18 ** - 50 m
+- **Zoom 18** - 50 m
   - Thicker contour lines
   - Realistic electricity pylons icon
   - Text bus / train stop
   - Disabling the visibility of the trails (only the difficulty is visible T2 / T3 / T4 / T5 / T6)
-- ** Zoom 19 ** - 20 m
+- **Zoom 19** - 20 m
   - Activation of certain texts in towns / villages / hamlets
