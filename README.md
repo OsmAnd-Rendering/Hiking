@@ -21,12 +21,10 @@ Ce style est basé sur le style Topo d'OsmAnd, il améliore entre autres la lisi
 
 
 <p float="left">
-  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample7.png" width="250" />
-  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample9.png" width="250" />
-  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample14.png" width="250" />
-  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample1.png" width="250" />
-  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample3.png" width="250" />
-  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample2.png" width="250" />
+  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/Samplesmall3.png" width="200" />
+  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/Samplesmall4.png" width="200" />
+  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/samplesmall1.png" width="200" />
+  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/Samplesmall6.png" width="200" />
 </p>
 
 
