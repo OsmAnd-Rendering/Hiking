@@ -1,4 +1,4 @@
-﻿<renderingStyle name="Hiking" depends="" defaultColor="#ffffff" version="1">
+<renderingStyle name="Hiking" depends="" defaultColor="#ffffff" version="1">
 
 
 
@@ -4299,10 +4299,6 @@
 						<!--						<apply_if minzoom="7" shader="topo_glacier"/>-->
 					</switch>
 
-					<!--		<case minzoom="10" tag="natural" value="heath" color="$grassColor">
-						<apply_if minzoom="14" shader="topo_heath"/>
-						<apply_if nightMode="true" shader=""/>
-					</case>-->
 					<case minzoom="9" tag="landuse" value="residential" color="$landuseResidentialColor">
 						<apply_if minzoom="11" additional="residential=rural" color="$landuseResidentialRuralColor"/>
 						<apply_if minzoom="11" additional="residential=urban" color="$landuseResidentialUrbanColor"/>
