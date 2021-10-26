@@ -4,6 +4,20 @@
 🇫🇷 [Français](README.md)
 
 
+For the hike we realized that it was necessary to juggle several styles of map to have certain information.
+This style is based on OsmAnd's Topo style, among other things it improves the readability of the map and a more realistic representation of the terrain.
+
+
+**Notable features compared to the standard topo map style:**
+
+- Thicker paths and tracks.
+- Difficulty and visibility of the trails
+- Useful / interesting POIs highlighted
+- Color of land and water occupations
+- Natural reserves
+- Opaque color for routes based on OSMC symbols
+- Additional settings
+
 <p float="left">
   <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample7.png" width="250" />
   <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/sample9.png" width="250" />
