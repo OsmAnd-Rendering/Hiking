@@ -19,10 +19,10 @@ This style is based on OsmAnd's Topo style, among other things it improves the r
 - Additional settings
 
 <p float="left">
-  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/Samplesmall3.png" width="200" />
-  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/Samplesmall4.png" width="200" />
-  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/samplesmall1.png" width="200" />
-  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/Samplesmall6.png" width="200" />
+  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/samplesmall3.jpg" width="200" />
+  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/samplesmall4.jpg" width="200" />
+  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/samplesmall1.jpg" width="200" />
+  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/samplesmall6.jpg" width="200" />
 </p>
 
 
