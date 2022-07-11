@@ -1328,6 +1328,41 @@
 		<case engine_v1="true" attrColorValue="#84a8ff"/>
 		<case attrColorValue="#84a8ff"/>
 	</renderingAttribute>
+	
+	<renderingAttribute name="osmcRedTextColor">
+		<case attrColorValue="#FF0000"/>
+	</renderingAttribute>
+	<renderingAttribute name="osmcBrownTextColor">
+		<case attrColorValue="#775200"/>
+	</renderingAttribute>
+	<renderingAttribute name="osmcOrangeTextColor">
+		<case attrColorValue="#EE9D00"/>
+	</renderingAttribute>
+	<renderingAttribute name="osmcDarkyellowTextColor">
+		<case attrColorValue="#8C9800"/>
+	</renderingAttribute>
+	<renderingAttribute name="osmcYellowTextColor">
+		<case attrColorValue="#F0E600"/>
+	</renderingAttribute>
+	<renderingAttribute name="osmcLightgreenTextColor">
+		<case attrColorValue="#C5FF7A"/>
+	</renderingAttribute>
+	<renderingAttribute name="osmcGreenTextColor">
+		<case attrColorValue="#00DE02"/>
+	</renderingAttribute>
+	<renderingAttribute name="osmcLightblueTextColor">
+		<case attrColorValue="#6FC8FA"/>
+	</renderingAttribute>
+	<renderingAttribute name="osmcBlueTextColor">
+		<case attrColorValue="#3B00FF"/>
+	</renderingAttribute>
+	<renderingAttribute name="osmcPurpleTextColor">
+		<case attrColorValue="#CC00FF"/>
+	</renderingAttribute>
+	<renderingAttribute name="osmcGrayTextColor">
+		<case attrColorValue="#B9B9B9"/>
+	</renderingAttribute>	
+	
 	<renderingAttribute name="iwnColor">
 		<case attrColorValue="#d94545"/>
 	</renderingAttribute>
