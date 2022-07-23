@@ -23,6 +23,8 @@ This style is based on OsmAnd's Topo style, among other things it improves the r
 
 | <img src="Screenshots/Hiking1.png" width="250" /> | <img src="Screenshots/Hiking2.png" width="250" /> | <img src="Screenshots/Hiking3.png" width="250" /> |
 | :-------------: | :-------------: | :-------------: |
+| <img src="Screenshots/Hiking4.png" width="250" /> | <img src="Screenshots/Hiking5.png" width="250" /> | <img src="Screenshots/Hiking6.png" width="250" /> |
+
 <br>
 
 ---

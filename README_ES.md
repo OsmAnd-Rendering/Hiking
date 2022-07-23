@@ -1,62 +1,75 @@
-# Hiking
+# Caminata
+ -  🇪🇸 **[Español](README_ES.md)**  🇬🇧 [English](README_EN.md) 🇫🇷 [Français](README.md)
 
-- 🇬🇧 **[English](README-EN.md)** 🇫🇷 [Français](README.md) 🇪🇸 [Español](README_ES.md)
-
-
-For the hike we realized that it was necessary to juggle several styles of map to have certain information.
-This style is based on OsmAnd's Topo style, among other things it improves the readability of the map and a more realistic representation of the terrain.<br><br>
+Para la caminata nos dimos cuenta de que teníamos que hacer malabarismos entre varios estilos de mapa para obtener cierta información.
+Este estilo está basado en el estilo Topo de OsmAnd, mejora, entre otras cosas, la legibilidad del mapa y una representación más realista del terreno.<br><br>
 
 
-## Notable features compared to the standard topo map style:
+## Características notables sobre el estilo de mapa topográfico estándar:
 
-- Thicker paths and tracks.
-- Difficulty and visibility of the trails
-- Useful / interesting POIs highlighted
-- Color of land and water occupations
-- Natural reserves
-- Opaque color for routes based on OSMC symbols
-- Additional settings<br><br>
+- Caminos y pistas más gruesos.
+- Dificultad y visibilidad de los senderos
+- Puntos de interés útiles/interesantes resaltados
+- Color de los usos de la tierra y el agua
+- Las reservas naturales
+- Color opaco para rutas basadas en símbolos OSMC
+- Configuraciones adicionales<br><br>
 
 ---
 
-## Screenshots<br>
+## Capturas de pantalla<br>
 
 | <img src="Screenshots/Hiking1.png" width="250" /> | <img src="Screenshots/Hiking2.png" width="250" /> | <img src="Screenshots/Hiking3.png" width="250" /> |
 | :-------------: | :-------------: | :-------------: |
+| <img src="Screenshots/Hiking4.png" width="250" /> | <img src="Screenshots/Hiking5.png" width="250" /> | <img src="Screenshots/Hiking6.png" width="250" /> |
+
 <br>
 
 ---
 
-## Download rendering
-Applicable on PC, Android and iOS.
+## Descargar el estilo
 
-- Download the file by right clicking or long pressing on [this link](https://raw.githubusercontent.com/OsmAnd-Rendering/Hiking/main/Hiking.render.xml)
-    - Download link target.<br><br>
+Click derecho o mantén presionado [este enlace](https://raw.githubusercontent.com/OsmAnd-Rendering/Hiking/main/Randonn%C3%A9e.render.xml) → <kbd><samp>Descargar enlace</samp></kbd>.
+    <br><br>
 
----
+## Instalar el estilo
 
-## Install Render
 <table>
-    <head>
+    <thead>
     <tr>
         <th>Android</th>
         <th>iOS</th>
     </tr>
     </thead>
     <tbody>
-    <tr>
-        <td width="50%"><li> Using a file manager, <code>move the downloaded xml file</code> into the folder:<br><code>Android/data/ net.osmand.plus/files/rendering</code><br><li> <code>Close the Osmand application</code> with the android square button<br><li> Open OsmAnd, then in the left side menu, select <code>Map settings</code><br><li> Scroll down to <code>Map style</code><br> <li> Select <code>Hiking</code>, your new rendering.<br><li> Done! 🎉</td>
-        <td><li> Open your download, then choose <code>Open with OsmAnd</code>. Your style has been imported!<br><li> Open OsmAnd, then in the left side menu, select on <code>Map settings</code><br><li> Go down to <code>Map style</code><br><li> Select <code>Hiking</code>, your new rendering.<br><li> Done! 🎉</td>
+    <tr valign="top">
+        <td width="50%">
+          <ul>
+          <li> Con un explorador de archivos, <code>mover el archivo xml</code> a la carpeta
+<code>Android / data / net.osmand.plus / files / rendering</code></li>
+          <li> <code>Cerrar Osmand</code> con el botón cuadrado de Android</li> 
+          <li> Una vez reiniciado, en el menu seleccionar <code>Configurar mapa</code></li>
+          <li> Bajar hasta <code>Estilo de mapa</code> y pulsar</li>
+          <li> Seleccionar <code>Caminata</code></li>
+          <li> Listo! 🎉</li></ul></td>
+        <td>
+          <ul>
+          <li> Abrir el archivo descargado, y elegir <code>Abrir con OsmAnd</code>. El estilo ha sido importado!</li>
+          <li> Abrir OsmAnd y en el menu seleccionar <code>Configurar mapa</code></li>
+          <li> Bajar hasta <code>Estilo de mapa</code> y pulsar</li>
+          <li> Seleccionar <code>Caminata</code></li>
+          <li> Listo! 🎉</li></ul></td>
     </tr>
-    <tbody>
+    </tbody>
 </table>
+
 <br>
 
 ---
 
 
-## ➡️ [Map legend](legende/Légende.md)
-## ➡️ [List of improvements](Liste%20des%20am%C3%A9liorations/List%20of%20improvements.md)
+## ➡️ [Leyenda](legende/Légende.md)
+## ➡️ [Lista de mejoras](Liste%20des%20am%C3%A9liorations/List%20of%20improvements.md)
 
 
 
