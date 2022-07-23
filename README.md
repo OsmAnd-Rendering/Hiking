@@ -1,15 +1,11 @@
-# OsmAnd Hiking Map
-
-- 🇫🇷 **[Français](README.md)**<br>
-🇬🇧 [English](README-EN.md)
-
-
+# Randonnée
+ - 🇫🇷 **[Français](README.md)** 🇪🇸 [Español](README_ES.md) 🇬🇧 [English](README_EN.md)
 
 Pour la randonnée nous avons fait le constat qu'il fallait jongler entre plusieurs styles de carte pour avoir certaines inormations.
-Ce style est basé sur le style Topo d'OsmAnd, il améliore entre autres la lisibilité de la carte et une représentation du terrain plus réaliste. 
+Ce style est basé sur le style Topo d'OsmAnd, il améliore entre autres la lisibilité de la carte et une représentation du terrain plus réaliste.<br><br>
 
 
-**Caractéristiques notables par rapport au style de carte topo standard :**
+## Caractéristiques notables par rapport au style de carte topo standard :
 
 - Sentiers et pistes plus épais. 
 - Difficulté et visibilité des sentiers 
@@ -17,44 +13,52 @@ Ce style est basé sur le style Topo d'OsmAnd, il améliore entre autres la lisi
 - Couleur des occupations du sol et de l’eau
 - Réserves naturelles 
 - Couleur opaque pour les itinéraires basés sur les symboles OSMC
-- Réglages supplémentaires
-
-
-<p float="left">
-  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/samplesmall3.jpg" width="200" />
-  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/samplesmall4.jpg" width="200" />
-  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/samplesmall1.jpg" width="200" />
-  <img src="Liste%20des%20am%C3%A9liorations/Screenshots/Hiking/samplesmall6.jpg" width="200" />
-</p>
-
-
-## Installer le rendu
-Applicable sur Android et iOS.
-
-- Télécharger le fichier [Randonnée.render.xml](https://raw.githubusercontent.com/Hades1503/OsmAnd_Hiking_Map/main/Randonn%C3%A9e.render.xml)
-  - **Depuis un ordinateur** : Faites un clic droit sur [ce lien](https://github.com/Hades1503/OsmAnd_Hiking_Map/raw/main/Randonn%C3%A9e.render.xml) → <kbd><samp>Enregistrer la cible du lien sous...</samp></kbd>.
-  - **Depuis un smartphone** : Faites un appui long sur [ce lien](https://github.com/Hades1503/OsmAnd_Hiking_Map/raw/main/Randonn%C3%A9e.render.xml) → <kbd><samp>Télécharger la cible du lien</samp></kbd>.<br>
-    <br>
-    *Tutoriel réalisé sous le navigateur <a href="https://www.mozilla.org/fr/firefox/new/">Firefox</a> – les termes utilisés peuvent être différents avec un autre.*<br>
-    <br>
-- Ouvrez votre téléchargement, puis choisissez `Ouvrir avec OsmAnd`. Votre style a été importé !
-- Ouvrez OsmAnd, puis dans le menu latéral gauche, sélectionnez sur `Paramétrer la carte`
-- Descendez à `Style de la carte`
-- Sélectionnez `Randonnée`, votre nouveau rendu.
-- Terminé, bonnes balades ! 🎉
-<br>
-<details>
-    <summary><i>Android ; Méthode alternative</i></summary>
-        <p>Une fois le fichier téléchargé, le déplacer dans le dossier Android → Data → net.osmand.plus → files → rendering.</p>
-</details>
-
-### Annexes
-- 🇬🇧 [Rendering — OsmAnd](https://www.osmand.net/build_it#rendering)
-- 🇬🇧 [Map Rendering style - .render.xml — OsmAnd Docs](https://docs.osmand.net/en/main@latest/development/osmand-file-formats/osmand-rendering-style)
-- 🇫🇷 [Style pour OsmAnd axé sur l'utilisation en moto tout terrain](https://osmtopo.blogspot.com/2021/02/style-pour-osmand.html?m=1)
+- Réglages supplémentaires<br><br>
 
 ---
 
+## Screenshots<br>
+
+| <img src="Screenshots/Hiking1.png" width="250" /> | <img src="Screenshots/Hiking2.png" width="250" /> | <img src="Screenshots/Hiking3.png" width="250" /> |
+| :-------------: | :-------------: | :-------------: |
+<br>
+
+---
+
+## Télécharger le rendu
+Applicable sur PC, Android et iOS.
+
+- Télécharger le fichier en faisant un clic droit ou appui long sur [ce lien](https://raw.githubusercontent.com/OsmAnd-Rendering/Hiking/main/Randonn%C3%A9e.render.xml)
+    - Télécharger la cible du lien.<br><br>
+
+---
+
+
+
+## Installer le rendu
+<table>
+    <thead>
+    <tr>
+        <th>Android</th>
+        <th>iOS</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td width="50%"><li> À l'aide d'un gestionnaire de fichiers, <code>déplacez le fichier xml téléchargé</code> dans le dossier:<br><code>Android / data / net.osmand.plus / files / rendering</code><br><li>  <code>Fermez l'application</code> Osmand avec le bouton carré d'android<br><li> Ouvrez OsmAnd, puis dans le menu latéral gauche, sélectionnez <code>Paramétrer la carte</code><br<li> Descendez à <code>Style de la carte</code><br> <li> Sélectionnez <code>Randonnée</code>, votre nouveau rendu.<br><li> Terminé ! 🎉</td>
+        <td><li> Ouvrez votre téléchargement, puis choisissez <code>Ouvrir avec OsmAnd</code>. Votre style a été importé!<br><li> Ouvrez OsmAnd, puis dans le menu latéral gauche, sélectionnez sur <code>Paramétrer la carte</code><br><li> Descendez à <code>Style de la carte</code><br><li> Sélectionnez <code>Randonnée</code>, votre nouveau rendu.<br><li> Terminé ! 🎉</td>
+    </tr>
+    <tbody>
+</table>
+
+<br>
+
+---
+
+
 ## ➡️ [Légende](legende/Légende.md)
 ## ➡️ [Liste des améliorations](Liste%20des%20am%C3%A9liorations/Liste%20des%20améliorations.md)
-## ➡️ [Signalement ou suggestion](https://github.com/Hades1503/OsmAnd_Hiking_Map/issues/new)
+
+
+---
+
