@@ -30,7 +30,7 @@ Ce style est basé sur le style Topo d'OsmAnd, il améliore entre autres la lisi
 ## Télécharger le rendu
 Applicable sur PC, Android et iOS.
 
-- Télécharger le fichier en faisant un clic droit ou appui long sur [ce lien](https://raw.githubusercontent.com/OsmAnd-Rendering/Hiking/main/Randonn%C3%A9e.render.xml?raw=true)
+- Télécharger le fichier en faisant un clic droit ou appui long sur [ce lien](https://raw.githubusercontent.com/OsmAnd-Rendering/Hiking/main/Randonn%C3%A9e.render.xml)
     - Télécharger la cible du lien.<br><br>
 
 ---
