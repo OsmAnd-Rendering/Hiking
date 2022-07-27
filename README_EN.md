@@ -25,7 +25,9 @@ This style is based on OsmAnd's Topo style, among other things it improves the r
 | :-------------: | :-------------: | :-------------: |
 | <img src="Screenshots/Hiking4.png" width="250" /> | <img src="Screenshots/Hiking5.png" width="250" /> | <img src="Screenshots/Hiking6.png" width="250" /> |
 
-<br>
+---
+
+## ➡️[Map legend](legende/Légende.md)&emsp;&emsp;&emsp;&emsp;➡️[List of improvements](Liste%20des%20am%C3%A9liorations/Liste%20des%20améliorations.md)
 
 ---
 
@@ -53,13 +55,5 @@ Applicable on PC, Android and iOS.
     <tbody>
 </table>
 <br>
-
----
-
-
-## ➡️ [Map legend](legende/Légende.md)
-## ➡️ [List of improvements](Liste%20des%20am%C3%A9liorations/List%20of%20improvements.md)
-
-
 
 ---

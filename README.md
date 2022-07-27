@@ -23,7 +23,9 @@ Ce style est basé sur le style Topo d'OsmAnd, il améliore entre autres la lisi
 | :-------------: | :-------------: | :-------------: |
 | <img src="Screenshots/Hiking4.png" width="250" /> | <img src="Screenshots/Hiking5.png" width="250" /> | <img src="Screenshots/Hiking6.png" width="250" /> |
 
-<br>
+---
+
+## ➡️[Légende](legende/Légende.md)&emsp;&emsp;&emsp;&emsp;➡️[Liste des améliorations](Liste%20des%20am%C3%A9liorations/Liste%20des%20améliorations.md)
 
 ---
 
@@ -54,13 +56,6 @@ Applicable sur PC, Android et iOS.
 </table>
 
 <br>
-
----
-
-
-## ➡️ [Légende](legende/Légende.md)
-## ➡️ [Liste des améliorations](Liste%20des%20am%C3%A9liorations/Liste%20des%20améliorations.md)
-
 
 ---
 

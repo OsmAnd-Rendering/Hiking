@@ -23,7 +23,9 @@ Este estilo está basado en el estilo Topo de OsmAnd, mejora, entre otras cosas,
 | :-------------: | :-------------: | :-------------: |
 | <img src="Screenshots/Hiking4.png" width="250" /> | <img src="Screenshots/Hiking5.png" width="250" /> | <img src="Screenshots/Hiking6.png" width="250" /> |
 
-<br>
+---
+
+## ➡️[Leyenda](legende/Légende.md)&emsp;&emsp;&emsp;&emsp;➡️[Lista de mejoras](Liste%20des%20am%C3%A9liorations/Liste%20des%20améliorations.md)
 
 ---
 
@@ -64,13 +66,5 @@ Click derecho o mantén presionado [este enlace](https://raw.githubusercontent.c
 </table>
 
 <br>
-
----
-
-
-## ➡️ [Leyenda](legende/Légende.md)
-## ➡️ [Lista de mejoras](Liste%20des%20am%C3%A9liorations/List%20of%20improvements.md)
-
-
 
 ---
