@@ -4030,7 +4030,7 @@
 			<case minzoom="16" tag="man_made" value="water_well" icon="topo_water_well" shield="topo_water_well_shield" iconOrder="91"/>
 			<case minzoom="14" tag="amenity" value="fountain" icon="amenity_fountain" shield="fountain_shield"/>
 			<case minzoom="14" tag="natural" value="spring" icon="topo_spring" shield="topo_spring_shield" iconVisibleSize="14" iconOrder="45"/>
-			<case minzoom="16" tag="amenity" value="drinking_water" icon="topo_drinking_water" shield="topo_drinking_water_shield" iconVisibleSize="14" iconOrder="40"/>
+			<case minzoom="16" tag="amenity" value="drinking_water" icon="amenity_drinking_water" shield="blue_round_shield"/>
 			<case minzoom="18" tag="amenity" value="bench" icon="bench" shield="bench_shield" iconOrder="70"/>
 			<case minzoom="18" tag="amenity" value="lounger" icon="lounger" shield="lounger_shield" iconOrder="70"/>
 
