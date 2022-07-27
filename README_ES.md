@@ -1,5 +1,5 @@
 # Caminata
- -  🇪🇸 **[Español](README_ES.md)**  🇬🇧 [English](README_EN.md) 🇫🇷 [Français](README.md)
+`🇪🇸 Español`&emsp;🇬🇧 [English](README_EN.md)&emsp;🇫🇷 [Français](README.md)
 
 Para la caminata nos dimos cuenta de que teníamos que hacer malabarismos entre varios estilos de mapa para obtener cierta información.
 Este estilo está basado en el estilo Topo de OsmAnd, mejora, entre otras cosas, la legibilidad del mapa y una representación más realista del terreno.<br><br>

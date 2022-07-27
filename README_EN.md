@@ -1,6 +1,6 @@
 # Hiking
 
-- 🇬🇧 **[English](README-EN.md)** 🇫🇷 [Français](README.md) 🇪🇸 [Español](README_ES.md)
+`🇬🇧 English`&emsp;🇫🇷 [Français](README.md)&emsp;🇪🇸 [Español](README_ES.md)
 
 
 For the hike we realized that it was necessary to juggle several styles of map to have certain information.
