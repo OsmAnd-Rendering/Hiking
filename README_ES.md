@@ -1,21 +1,20 @@
-# Caminata
+# Senderismo
 `🇪🇸 Español`&emsp;🇬🇧 [English](README_EN.md)&emsp;🇫🇷 [Français](README.md)
 
-Para la caminata nos dimos cuenta de que teníamos que hacer malabarismos entre varios estilos de mapa para obtener cierta información.
-Este estilo está basado en el estilo Topo de OsmAnd, mejora, entre otras cosas, la legibilidad del mapa y una representación más realista del terreno.<br><br>
+Para el senderismo nos dimos cuenta de que teníamos que hacer malabarismos entre varios estilos de mapa para obtener cierta información.
+Este estilo está basado en el estilo Topo de OsmAnd, mejora, entre otras cosas, la visualización del mapa y la representación algunos elementos del terreno.<br><br>
 
 
-## Características notables sobre el estilo de mapa topográfico estándar:
+## Cambios notables sobre el estilo "Topo" incluido en Osmand:
 
 - Caminos y pistas más gruesos.
-- Dificultad y visibilidad de los senderos
+- Dificultad y visibilidad de los caminos
 - Puntos de interés útiles/interesantes resaltados
-- Color de los usos de la tierra y el agua
-- Las reservas naturales
-- Color opaco para rutas basadas en símbolos OSMC
+- Colores de usos del suelo y del agua
+- Reservas naturales
+- Colores opacos para rutas basadas en símbolos OSMC
 - Configuraciones adicionales<br><br>
 
----
 
 ## Capturas de pantalla<br>
 
@@ -23,15 +22,13 @@ Este estilo está basado en el estilo Topo de OsmAnd, mejora, entre otras cosas,
 | :-------------: | :-------------: | :-------------: |
 | <img src="Screenshots/Hiking4.png" width="250" /> | <img src="Screenshots/Hiking5.png" width="250" /> | <img src="Screenshots/Hiking6.png" width="250" /> |
 
----
 
-## ➡️[Leyenda](legende/Légende.md)&emsp;&emsp;&emsp;&emsp;➡️[Lista de mejoras](Liste%20des%20am%C3%A9liorations/Liste%20des%20améliorations.md)
+## ➡️[Leyenda](legende/Légende.md) (Fr)&emsp;&emsp;&emsp;➡️[Lista de mejoras](Liste%20des%20am%C3%A9liorations/Liste%20des%20améliorations.md) (Fr)
 
----
 
 ## Descargar el estilo
 
-Click derecho o mantén presionado [este enlace](https://raw.githubusercontent.com/OsmAnd-Rendering/Hiking/main/Randonn%C3%A9e.render.xml) → <kbd><samp>Descargar enlace</samp></kbd>.
+Clic derecho o mantén presionado [este enlace](https://raw.githubusercontent.com/OsmAnd-Rendering/Hiking/main/Randonn%C3%A9e.render.xml) → <kbd><samp>Descargar enlace</samp></kbd>.
     <br><br>
 
 ## Instalar el estilo
@@ -67,4 +64,3 @@ Click derecho o mantén presionado [este enlace](https://raw.githubusercontent.c
 
 <br>
 
----
