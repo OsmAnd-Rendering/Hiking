@@ -25,37 +25,9 @@ Ce style est basé sur le style Topo d'OsmAnd, il améliore entre autres la lisi
 
 ---
 
-## ➡️[Légende](legende/Légende.md)&emsp;&emsp;&emsp;&emsp;➡️[Liste des améliorations](Liste%20des%20am%C3%A9liorations/Liste%20des%20améliorations.md)
-
----
-
-## Télécharger le rendu
-Applicable sur PC, Android et iOS.
-
-- Télécharger le fichier en faisant un clic droit ou appui long sur [ce lien](https://raw.githubusercontent.com/OsmAnd-Rendering/Hiking/main/Randonn%C3%A9e.render.xml)
-    - Télécharger la cible du lien.<br><br>
+## ➡️Pour l'installation et plus de détails c'est sur le [Wiki](https://github.com/OsmAnd-Rendering/Hiking/wiki)
 
 ---
 
 
-
-## Installer le rendu
-<table>
-    <thead>
-    <tr>
-        <th>Android</th>
-        <th>iOS</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td width="50%"><li> À l'aide d'un gestionnaire de fichiers, <code>déplacez le fichier xml téléchargé</code> dans le dossier:<br><code>Android / data / net.osmand.plus / files / rendering</code><br><li>  <code>Fermez l'application</code> Osmand avec le bouton carré d'android<br><li> Ouvrez OsmAnd, puis dans le menu latéral gauche, sélectionnez <code>Paramétrer la carte</code><br<li> Descendez à <code>Style de la carte</code><br> <li> Sélectionnez <code>Randonnée</code>, votre nouveau rendu.<br><li> Terminé ! 🎉</td>
-        <td><li> Ouvrez votre téléchargement, puis choisissez <code>Ouvrir avec OsmAnd</code>. Votre style a été importé!<br><li> Ouvrez OsmAnd, puis dans le menu latéral gauche, sélectionnez sur <code>Paramétrer la carte</code><br><li> Descendez à <code>Style de la carte</code><br><li> Sélectionnez <code>Randonnée</code>, votre nouveau rendu.<br><li> Terminé ! 🎉</td>
-    </tr>
-    <tbody>
-</table>
-
-<br>
-
----
 
