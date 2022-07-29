@@ -25,7 +25,7 @@ Ce style est basé sur le style Topo d'OsmAnd, il améliore entre autres la lisi
 
 ---
 
-## ➡️Pour l'installation et plus de détails c'est sur le [Wiki](https://github.com/OsmAnd-Rendering/Hiking/wiki)
+## ➡️Pour l'installation et plus de détails c'est sur le [Wiki](https://github.com/OsmAnd-Rendering/Hiking/wiki#-fran%C3%A7ais)
 
 ---
 
