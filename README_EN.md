@@ -26,34 +26,18 @@ This style is based on OsmAnd's Topo style, among other things it improves the r
 | <img src="Screenshots/Hiking4.png" width="250" /> | <img src="Screenshots/Hiking5.png" width="250" /> | <img src="Screenshots/Hiking6.png" width="250" /> |
 
 ---
-
-## ➡️[Map legend](legende/Légende.md)&emsp;&emsp;&emsp;&emsp;➡️[List of improvements](Liste%20des%20am%C3%A9liorations/Liste%20des%20améliorations.md)
-
----
-
-## Download rendering
-Applicable on PC, Android and iOS.
-
-- Download the file by right clicking or long pressing on [this link](https://raw.githubusercontent.com/OsmAnd-Rendering/Hiking/main/Hiking.render.xml)
-    - Download link target.<br><br>
-
----
-
-## Install Render
-<table>
-    <head>
-    <tr>
-        <th>Android</th>
-        <th>iOS</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <td width="50%"><li> Using a file manager, <code>move the downloaded xml file</code> into the folder:<br><code>Android/data/ net.osmand.plus/files/rendering</code><br><li> <code>Close the Osmand application</code> with the android square button<br><li> Open OsmAnd, then in the left side menu, select <code>Map settings</code><br><li> Scroll down to <code>Map style</code><br> <li> Select <code>Hiking</code>, your new rendering.<br><li> Done! 🎉</td>
-        <td><li> Open your download, then choose <code>Open with OsmAnd</code>. Your style has been imported!<br><li> Open OsmAnd, then in the left side menu, select on <code>Map settings</code><br><li> Go down to <code>Map style</code><br><li> Select <code>Hiking</code>, your new rendering.<br><li> Done! 🎉</td>
-    </tr>
-    <tbody>
-</table>
+## Installation instructions
 <br>
+
+- [Installation instructions for all Profiles, renderings and routing.](https://github.com/OsmAnd-Rendering/.github/wiki/%F0%9F%87%AC%F0%9F%87%A7--Download-and-Install)
+<br><br>
+
+---
+
+## documentation
+<br>
+
+- [Styling improvements](https://github.com/OsmAnd-Rendering/Hiking/wiki/%F0%9F%87%AC%F0%9F%87%A7-English-Styling-improvements-over-OsmAnd's-Topo)<br>
+- [Legend](https://github.com/OsmAnd-Rendering/Hiking/wiki/%F0%9F%87%AC%F0%9F%87%A7-English-Legend)<br><br>
 
 ---

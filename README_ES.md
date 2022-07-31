@@ -21,45 +21,19 @@ Este estilo está basado en el estilo Topo de OsmAnd y mejora, entre otras cosas
 | <img src="Screenshots/Senderismo_1.jpg" width="250" /> | <img src="Screenshots/Senderismo_2.jpg" width="250" /> | <img src="Screenshots/Senderismo_3.jpg" width="250" /> |
 | :-------------: | :-------------: | :-------------: |
 
+---
 
-## ➡️[Leyenda](legende/Légende.md) (Fr)&emsp;&emsp;&emsp;➡️[Lista de mejoras](Liste%20des%20am%C3%A9liorations/Liste%20des%20améliorations.md) (Fr)
-
-
-## Descargar el estilo
-
-Clic derecho o mantén presionado [este enlace](https://raw.githubusercontent.com/OsmAnd-Rendering/Hiking/main/Senderismo.render.xml) → <kbd><samp>Descargar enlace</samp></kbd>.
-    <br><br>
-
-## Instalar el estilo
-
-<table>
-    <thead>
-    <tr>
-        <th>Android</th>
-        <th>iOS</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr valign="top">
-        <td width="50%">
-          <ul>
-          <li> Con un explorador de archivos, <code>mover el archivo xml</code> a la carpeta
-<code>Android / data / net.osmand.plus / files / rendering</code></li>
-          <li> <code>Cerrar Osmand</code> con el botón cuadrado de Android</li> 
-          <li> Una vez reiniciado, en el menu seleccionar <code>Configurar mapa</code></li>
-          <li> Bajar hasta <code>Estilo de mapa</code> y pulsar</li>
-          <li> Seleccionar <code>Caminata</code></li>
-          <li> Listo! 🎉</li></ul></td>
-        <td>
-          <ul>
-          <li> Abrir el archivo descargado, y elegir <code>Abrir con OsmAnd</code>. El estilo ha sido importado!</li>
-          <li> Abrir OsmAnd y en el menu seleccionar <code>Configurar mapa</code></li>
-          <li> Bajar hasta <code>Estilo de mapa</code> y pulsar</li>
-          <li> Seleccionar <code>Caminata</code></li>
-          <li> Listo! 🎉</li></ul></td>
-    </tr>
-    </tbody>
-</table>
-
+## IInstrucciones de instalación
 <br>
+
+- [IInstrucciones de instalación para todos los perfiles, renderizados y enrutamiento](https://github.com/OsmAnd-Rendering/.github/wiki/%F0%9F%87%AA%F0%9F%87%B8-Descargar-e-Instalar)
+<br><br>
+
+---
+
+## documentation
+<br>
+
+- [Lista de mejoras](https://github.com/OsmAnd-Rendering/Hiking/wiki/%F0%9F%87%AB%F0%9F%87%B7-Fran%C3%A7ais-Am%C3%A9liorations-du-style-par-rapport-%C3%A0-Topo-d%E2%80%99OsmAnd) (Fr)<br>
+- [Leyenda](https://github.com/OsmAnd-Rendering/Hiking/wiki/%F0%9F%87%AB%F0%9F%87%B7-Fran%C3%A7ais-L%C3%A9gende) (Fr)<br>
 

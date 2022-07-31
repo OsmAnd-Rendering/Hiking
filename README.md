@@ -25,9 +25,16 @@ Ce style est basé sur le style Topo d'OsmAnd, il améliore entre autres la lisi
 
 ---
 
-## ➡️Pour l'installation et plus de détails c'est sur le [Wiki](https://github.com/OsmAnd-Rendering/Hiking/wiki#-fran%C3%A7ais)
+## Instructions d'installation
+<br>
+
+- [Instructions d'installation pour tous les profils, rendus et routages](https://github.com/OsmAnd-Rendering/.github/wiki/%F0%9F%87%AB%F0%9F%87%B7--T%C3%A9l%C3%A9chargement-et-Installation)
+<br><br>
 
 ---
 
+## documentation
+<br>
 
-
+- [Améliorations du style](https://github.com/OsmAnd-Rendering/Hiking/wiki/%F0%9F%87%AB%F0%9F%87%B7-Fran%C3%A7ais-Am%C3%A9liorations-du-style-par-rapport-%C3%A0-Topo-d%E2%80%99OsmAnd)<br>
+- [Légende](https://github.com/OsmAnd-Rendering/Hiking/wiki/%F0%9F%87%AB%F0%9F%87%B7-Fran%C3%A7ais-L%C3%A9gende)<br>
