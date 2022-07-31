@@ -54,6 +54,12 @@
 	<renderingProperty attr="contourColorScheme" name="Contour lines color scheme" description="Contour lines color scheme" type="string" possibleValues="white,yellow,green,light_brown,brown,dark_brown,red" defaultValueDescription="default"/>
 	<renderingProperty attr="contourWidth" name="Contour lines width" description="Contour lines width" type="string" possibleValues="thin,medium,thick" defaultValueDescription="default"/>
 	<renderingProperty attr="contourDensity" name="Contour lines density" description="Contour lines density" type="string" possibleValues="low,medium_w,high" defaultValueDescription="default"/>
+<renderingProperty attr="hideNatureReserveSymbol" name="Símbolo Reservas Naturales" description="Ocultar el logo NR de las Reservas Naturales" type="boolean" possibleValues="" category="hide"/>
+	<renderingProperty attr="hideNatureReserveColor" name="Sombreado Reservas Naturales" description="Ocultar el sombreado de las Reservas Naturales" type="boolean" possibleValues="" category="hide"/>
+	<renderingProperty attr="hidepathvisibility" name="Visibilidad senderos" description="Ocultar la visibilidad de los senderos (la dificultad se queda)" type="boolean" possibleValues="" category="hide"/>
+	<renderingProperty attr="hidePOIpre-activated" name="POI pre-activados" description="Ocular POI pre-activados" type="boolean" possibleValues="" category="hide"/>
+	<renderingProperty attr="hidelanduseshader" name="Símbolos tipos de suelo" description="Ocultar los símbolos de ocupación del suelo (bosque, prados, matorrales...)" type="boolean" possibleValues="" category="hide"/>
+  <renderingProperty attr="hideHouseNumbers" name="Hide house numbers" description="Hide house numbers" type="boolean" possibleValues="" category="hide"/>					  
 
 	<renderingProperty attr="legend" name="Legend" type="boolean" possibleValues="" category="ui_hidden"/>
 
@@ -113,6 +119,7 @@
 			<case currentTrackColor="translucent_purple" color="#aaa71de1"/>
 			<case color="#ff0000">
 				<apply_if roadStyle="germanRoadAtlas" color="#aa0088"/>	<!-- does not works -->
+						   
 			</case>
 			<apply cap="ROUND">
 				<case currentTrackWidth="thin">
@@ -683,12 +690,23 @@
 		<case contourColorScheme="green" attrColorValue="#4400ff00"/>
 		<case contourColorScheme="light_brown" attrColorValue="#119C5615">
 			<apply_if noPolygons="true" attrColorValue="#44FFEAD6"/>
+													
+		 
+															  
+														 
+													
+		 
+															   
+														 
+													
 		</case>
 		<case contourColorScheme="brown" attrColorValue="#44bd6819">
 			<apply_if noPolygons="true" attrColorValue="#44C39F7D"/>
+													
 		</case>
 		<case contourColorScheme="dark_brown" attrColorValue="#22522D0B">
 			<apply_if noPolygons="true" attrColorValue="#4437250B"/>
+													
 		</case>
 		<case contourColorScheme="red" attrColorValue="#44ff0000"/>
 		<case attrColorValue="#44bd6819">
@@ -700,13 +718,24 @@
 		<case contourColorScheme="yellow" attrColorValue="#44FFF29E"/>
 		<case contourColorScheme="green" attrColorValue="#4400ff00"/>
 		<case contourColorScheme="light_brown" attrColorValue="#339C5615">
+														 
+													
+		 
+															   
 			<apply_if noPolygons="true" attrColorValue="#88FFEAD6"/>
+													
 		</case>
+																	
+														 
+													
+		 
 		<case contourColorScheme="brown" attrColorValue="#889C5615">
 			<apply_if noPolygons="true" attrColorValue="#88C39F7D"/>
+													
 		</case>
 		<case contourColorScheme="dark_brown" attrColorValue="#55522D0B">
 			<apply_if noPolygons="true" attrColorValue="#8837250B"/>
+													
 		</case>
 		<case contourColorScheme="red" attrColorValue="#44ff0000"/>
 		<case attrColorValue="#889C5615">
@@ -718,13 +747,24 @@
 		<case contourColorScheme="yellow" attrColorValue="#44FFF29E"/>
 		<case contourColorScheme="green" attrColorValue="#4400ff00"/>
 		<case contourColorScheme="light_brown" attrColorValue="#559C5615">
+														 
+													
+		 
+															   
 			<apply_if noPolygons="true" attrColorValue="#AAFFEAD6"/>
+													
 		</case>
+																	
+														 
+													
+		 
 		<case contourColorScheme="brown" attrColorValue="#aa9C5615">
 			<apply_if noPolygons="true" attrColorValue="#AAC39F7D"/>
+													
 		</case>
 		<case contourColorScheme="dark_brown" attrColorValue="#66522D0B">
 			<apply_if noPolygons="true" attrColorValue="#aa37250B"/>
+													 
 		</case>
 		<case contourColorScheme="red" attrColorValue="#44ff0000"/>
 		<case attrColorValue="#aa9C5615">
@@ -2010,6 +2050,7 @@
 					<apply_if contourDensity="medium_w" additional="contourtype=5m" order="-1"/>
 					<apply_if contourDensity="medium_w" additional="contourtype=10m" order="-1"/>
 					<apply_if contourDensity="medium_w" additional="contourtype=50m" order="-1"/>
+																		  
 					<apply_if contourDensity="low" additional="contourtype=5m" order="-1"/>
 					<apply_if contourDensity="low" additional="contourtype=10m" order="-1"/>
 					<apply_if contourDensity="low" additional="contourtype=20m" order="-1"/>
@@ -2802,18 +2843,32 @@
 			<case minzoom="16" contourLines="16"/>
 			<apply>
 				<case minzoom="14" additional="contourtype=20m" textColor="$contour20mTextColor" textSize="11" textMinDistance="170"/>
+													 
+		   
 				<switch minzoom="15">
 					<case additional="contourtype=10m"/>
 					<case additional="contourtype=40f"/>
 					<apply textColor="$contour10mTextColor" textSize="10" textMinDistance="160"/>
+													 
 				</switch>
 				<switch>
 					<case additional="contourtype=100m" textSize="11"/>
 					<case additional="contourtype=1000f" textSize="12"/>
 					<case additional="contourtype=200f" textSize="11"/>
 					<apply textColor="$contour100mTextColor" textOrder="250" textMinDistance="250"/>
+													 
 				</switch>
+						 
+														
+														 
+														
+																																	   
+																														 
+													 
+			 
 				<case additional="contourtype=50m" textColor="$contour50mTextColor" textSize="11" textMinDistance="200" textOrder="254"/>
+																																								   
+														
 				<apply_if nightMode="true" textHaloRadius=":1" textHaloColor="#aa333333"/>
 			</apply>
 		</switch>
@@ -6001,12 +6056,105 @@
 			<case minzoom="15" contourLines="15"/>
 			<case minzoom="16" contourLines="16"/>
 			<apply>
+								
+																	   
+															   
+												  
+				 
+																	   
+															   
+												  
+				 
+																		  
+															   
+															   
+												  
+				 
+																			
+															   
+															   
+												
+				 
+			 
+								  
+																	   
+															   
+												  
+				 
+																	   
+															   
+															   
+												  
+				 
+																		  
+															   
+															   
+												
+				 
+																			
+															   
+															   
+												  
+				 
+			 
+							 
+																	   
+															   
+															   
+															   
+												  
+				 
+																	   
+															   
+															   
+															   
+												  
+				 
+																		  
+															   
+															   
+															 
+															   
+												  
+				 
+																			
+															   
+															   
+															 
+															   
+												  
+				 
+			 
+								 
+																	   
+															   
+															   
+												  
+				 
+																	   
+															   
+															   
+															 
+												
+				 
+																		  
+															   
+															   
+												  
+				 
+																			
+															   
+															   
+												  
+				 
+			 
 				<switch>
 					<case minzoom="15" additional="contourtype=5m" color="$contourLineColor"/>
 					<case minzoom="13" additional="contourtype=20f" color="$contourLineColor"/>
 					<apply>
 						<case contourWidth="thin" strokeWidth="0.3"/>
 						<case contourWidth="medium" strokeWidth="0.6"/>
+												 
 						<case contourWidth="thick" strokeWidth="1.1"/>
 						<case strokeWidth="0.3"/>
 					</apply>
@@ -6018,6 +6166,7 @@
 					<apply>
 						<case contourWidth="thin" strokeWidth="0.5"/>
 						<case contourWidth="medium" strokeWidth="1"/>
+												 
 						<case contourWidth="thick" strokeWidth="1.5"/>
 						<case strokeWidth="0.5"/>
 					</apply>
@@ -6037,6 +6186,7 @@
 					<apply>
 						<case contourWidth="thin" strokeWidth="1"/>
 						<case contourWidth="medium" strokeWidth="1.3"/>
+												 
 						<case contourWidth="thick" strokeWidth="1.9"/>
 						<case strokeWidth="1"/>
 					</apply>
@@ -6046,6 +6196,7 @@
 					<apply>
 						<case contourWidth="thin" strokeWidth="1.3"/>
 						<case contourWidth="medium" strokeWidth="1.5"/>
+											   
 						<case contourWidth="thick" strokeWidth="2.1"/>
 						<case strokeWidth="1.3"/>
 					</apply>
