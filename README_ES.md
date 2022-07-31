@@ -31,7 +31,7 @@ Este estilo está basado en el estilo Topo de OsmAnd y mejora, entre otras cosas
 
 ---
 
-## documentation
+## Documentation
 <br>
 
 - [Lista de mejoras](https://github.com/OsmAnd-Rendering/Hiking/wiki/%F0%9F%87%AB%F0%9F%87%B7-Fran%C3%A7ais-Am%C3%A9liorations-du-style-par-rapport-%C3%A0-Topo-d%E2%80%99OsmAnd) (Fr)<br>

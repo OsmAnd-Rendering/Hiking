@@ -34,7 +34,7 @@ This style is based on OsmAnd's Topo style, among other things it improves the r
 
 ---
 
-## documentation
+## Documentation
 <br>
 
 - [Styling improvements](https://github.com/OsmAnd-Rendering/Hiking/wiki/%F0%9F%87%AC%F0%9F%87%A7-English-Styling-improvements-over-OsmAnd's-Topo)<br>
