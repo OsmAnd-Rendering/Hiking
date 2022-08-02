@@ -2,11 +2,11 @@
 
 ## En bref
 
-Ce qui a changé:
+Ce qui a changé :
 
-- Sentiers et chemins/piste de manière simplifiée. 
-- Difficulté des sentiers 
-- Visibilité des sentiers 
+- Sentiers et chemins/piste de manière simplifiée
+- Difficulté des sentiers
+- Visibilité des sentiers
 - Ponts
 - POI utiles/intéressant pendant la randonnée sont entourées d'un rond blanc pour les mettre en valeur
 - POI utiles lors d’un passage dans un hameaux/village/ville, sont pré-activé et entourées d'un rond en couleur selon la catégorie
@@ -22,9 +22,9 @@ Ce qui a changé:
 - Icônes des antennes, tours (bâtiments), éoliennes 
 - Couleur opaque pour les itinéraires basés sur les symboles OSMC
 
-### Nous avons ajouté des réglages supplémentaires:
+### Nous avons ajouté des réglages supplémentaires :
 
-- Réglages « masquer »:
+- Réglages « masquer » :
   - Symboles des réserves naturelles
   - Couleur des réserves naturelles 
   - Visibilité des sentiers 
@@ -35,7 +35,7 @@ Ce qui a changé:
   - Densité supplémentaire 
   - Épaisseur supplémentaire 
 
-### Nous avons désactivé:
+### Nous avons désactivé :
 - la qualité des surfaces (Smoothness) 
 
 
@@ -69,7 +69,7 @@ Ce qui a changé:
 - Symboles (shader)
 
 ## Courbe de niveau :
-- Épaisseur des traits réduits au zoom 11-12-13
+- Épaisseur des traits réduits aux zooms 11-12-13
 - Couleur corrigée pour le marron clair
 - Couleur ajoutée (orange et noir)
 - Réglage « Rando » supplémentaire pour la densité (type IGN France)
