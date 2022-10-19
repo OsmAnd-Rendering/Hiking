@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "type": "FILE",
+      "file": "\/rendering\/Senderismo.render.xml",
+      "subtype": "rendering_style"
+    },
+    {
+      "type": "PROFILE",
+      "file": "profile_pedestrian_11.json",
+      "appMode": {
+        "iconColor": "GREEN",
+        "iconName": "ic_action_trekking_dark",
+        "locIcon": "DEFAULT",
+        "navIcon": "DEFAULT",
+        "order": 6,
+        "parent": "pedestrian",
+        "routeService": "OSMAND",
+        "routingProfile": "pedestrian",
+        "stringKey": "pedestrian_11",
+        "userProfileName": "Hiking",
+        "version": 0
+      }
+    }
+  ]
+}
