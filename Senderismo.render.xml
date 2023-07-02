@@ -1314,40 +1314,40 @@
 	</renderingAttribute>
 
 	<renderingAttribute name="osmcBlackColor">
-		<case engine_v1="true" attrColorValue="#7f7f7f"/>
-		<case attrColorValue="#7f7f7f"/>
+		<case engine_v1="true" attrColorValue="#997f7f7f"/>
+		<case attrColorValue="#997f7f7f"/>
 	</renderingAttribute>
 	<renderingAttribute name="osmcBlueColor">
-		<case engine_v1="true" attrColorValue="#336eff"/>
-		<case attrColorValue="#336eff"/>
+		<case engine_v1="true" attrColorValue="#99336eff"/>
+		<case attrColorValue="#99336eff"/>
 	</renderingAttribute>
 	<renderingAttribute name="osmcGreenColor">
-		<case engine_v1="true" attrColorValue="#00be73"/>
-		<case attrColorValue="#00be73"/>
+		<case engine_v1="true" attrColorValue="#9900be73"/>
+		<case attrColorValue="#9900be73"/>
 	</renderingAttribute>
 	<renderingAttribute name="osmcRedColor">
-		<case engine_v1="true" attrColorValue="#c94c4c"/>
-		<case attrColorValue="#c94c4c"/>
+		<case engine_v1="true" attrColorValue="#99c94c4c"/>
+		<case attrColorValue="#99c94c4c"/>
 	</renderingAttribute>
 	<renderingAttribute name="osmcYellowColor">
-		<case engine_v1="true" attrColorValue="#cccc00"/>
-		<case attrColorValue="#cccc00"/>
+		<case engine_v1="true" attrColorValue="#99cccc00"/>
+		<case attrColorValue="#99cccc00"/>
 	</renderingAttribute>
 	<renderingAttribute name="osmcOrangeColor">
-		<case engine_v1="true" attrColorValue="#ffd566"/>
-		<case attrColorValue="#ffd566"/>
+		<case engine_v1="true" attrColorValue="#99ffd566"/>
+		<case attrColorValue="#99ffd566"/>
 	</renderingAttribute>
 	<renderingAttribute name="osmcBrownColor">
-		<case engine_v1="true" attrColorValue="#9a8752"/>
-		<case attrColorValue="#9a8752"/>
+		<case engine_v1="true" attrColorValue="#999a8752"/>
+		<case attrColorValue="#999a8752"/>
 	</renderingAttribute>
 	<renderingAttribute name="osmcPurpleColor">
-		<case engine_v1="true" attrColorValue="#d57fea"/>
-		<case attrColorValue="#d57fea"/>
+		<case engine_v1="true" attrColorValue="#99d57fea"/>
+		<case attrColorValue="#99d57fea"/>
 	</renderingAttribute>
 	<renderingAttribute name="osmcDefaultColor">
-		<case engine_v1="true" attrColorValue="#84a8ff"/>
-		<case attrColorValue="#84a8ff"/>
+		<case engine_v1="true" attrColorValue="#9984a8ff"/>
+		<case attrColorValue="#9984a8ff"/>
 	</renderingAttribute>
 	
 	<renderingAttribute name="osmcRedTextColor">
