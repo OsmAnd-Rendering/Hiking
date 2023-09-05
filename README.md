@@ -1,7 +1,7 @@
 # Randonnée
  `🇫🇷 Français`&emsp;🇪🇸 [Español](README_ES.md)&emsp;🇬🇧 [English](README_EN.md)
 
-Pour la randonnée nous avons fait le constat qu'il fallait jongler entre plusieurs styles de carte pour avoir certaines inormations.
+Pour la randonnée nous avons fait le constat qu'il fallait jongler entre plusieurs styles de carte pour avoir certaines informations.
 Ce style est basé sur le style Topo d'OsmAnd, il améliore entre autres la lisibilité de la carte et une représentation du terrain plus réaliste.<br><br>
 
 
