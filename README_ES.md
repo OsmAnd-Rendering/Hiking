@@ -1,5 +1,5 @@
 # Senderismo
-`🇪🇸 Español`&emsp;🇬🇧 [English](README_EN.md)&emsp;🇫🇷 [Français](README.md)
+`Español`&emsp;[English](README_EN.md)&emsp;[Français](README.md)
 
 Un estilo de mapa para OsmAnd, enfocado en la práctica del senderismo.
 Este estilo está basado en el estilo Topo de OsmAnd y mejora, entre otras cosas, la visualización de las pistas y sendas, y la representación de algunos elementos importantes para los senderistas.<br><br>
