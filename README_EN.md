@@ -1,6 +1,6 @@
-# Hiking
+<img src="https://raw.githubusercontent.com/osmandapp/OsmAnd-resources/197f4b7c42b224b9d8b01813693b0f5de9b5ddd3/icons/svg/special/trekking.svg" width="90" /> `English`&emsp;[Français](README.md)&emsp;[Español](README_ES.md)
 
-`English`&emsp;[Français](README.md)&emsp;[Español](README_ES.md)
+# Hiking
 
 
 For the hike we realized that it was necessary to juggle several styles of map to have certain information.

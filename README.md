@@ -1,5 +1,8 @@
+<img src="https://raw.githubusercontent.com/osmandapp/OsmAnd-resources/197f4b7c42b224b9d8b01813693b0f5de9b5ddd3/icons/svg/special/trekking.svg" width="90" /> `Français`&emsp;[Español](README_ES.md)&emsp;[English](README_EN.md)
+
+
+ 
 # Randonnée
- `Français`&emsp;[Español](README_ES.md)&emsp;[English](README_EN.md)
 
 Pour la randonnée nous avons fait le constat qu'il fallait jongler entre plusieurs styles de carte pour avoir certaines informations.
 Ce style est basé sur le style Topo d'OsmAnd, il améliore entre autres la lisibilité de la carte et une représentation du terrain plus réaliste.<br><br>
