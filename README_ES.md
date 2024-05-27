@@ -26,7 +26,7 @@ Este estilo está basado en el estilo Topo de OsmAnd y mejora, entre otras cosas
 ## Instrucciones de instalación
 <br>
 
-- [IInstrucciones de instalación para todos los perfiles, renderizados y enrutamiento](https://github.com/OsmAnd-Rendering/.github/wiki/%F0%9F%87%AA%F0%9F%87%B8-Descargar-e-Instalar)
+- [IInstrucciones de instalación para todos los perfiles, renderizados y enrutamiento](https://github.com/OsmAnd-Rendering/.github/wiki/ES%E2%80%94Descargar-e-Instalar)
 <br><br>
 
 ---
