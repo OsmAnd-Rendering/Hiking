@@ -25,7 +25,7 @@ Ces deux paramètres se combinent jusqu’à un certain zoom. Au zoom 18 (50 m) 
 - Horrible (`horrible`) : pointillés plus espacés
 - Non (`no`) : pointillé très espacés
 
-<img src="https://github.com/OsmAnd-Rendering/Hiking/blob/main/legende/jpg/L%C3%A9gende-FR.jpg" >
+![](https://github.com/OsmAnd-Rendering/Hiking/blob/main/legende/jpg/Légende-FR.jpg)
 
 ### Chemin/Chemin agricole/piste forestière (`highway=track`) :
 #### Grades 1 et 2 (`tracktype=grade1`/`grade2`)
