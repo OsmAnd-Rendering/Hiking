@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/osmandapp/OsmAnd-resources/197f4b7c42b224b9d8b01813693b0f5de9b5ddd3/icons/svg/special/trekking.svg" width="90" /> `Français`&emsp;[Español](README_ES.md)&emsp;[English](README_EN.md)
+<img src="https://github.com/osmandapp/OsmAnd-iOS/blob/master/Resources/Icons/Profile/ic_action_trekking_dark%403x.png" width="90" /> <img src="https://github.com/osmandapp/OsmAnd-iOS/blob/master/Resources/Icons/ic_custom_map_languge%403x.png" width="25" /> `Français`&emsp;[Español](README_ES.md)&emsp;[English](README_EN.md)
 
 
  
