@@ -39,5 +39,5 @@ Ce style est basé sur le style Topo d'OsmAnd, il améliore entre autres la lisi
 ## <img src="https://github.com/osmandapp/OsmAnd-iOS/blob/master/Resources/Icons/ic_custom_info%403x.png" width="30" > Documentation
 <br>
 
-- [Améliorations du style](https://github.com/OsmAnd-Rendering/Hiking/wiki/%F0%9F%87%AB%F0%9F%87%B7-Fran%C3%A7ais-Am%C3%A9liorations-du-style-par-rapport-%C3%A0-Topo-d%E2%80%99OsmAnd)<br>
-- [Légende](https://github.com/OsmAnd-Rendering/Hiking/wiki/%F0%9F%87%AB%F0%9F%87%B7-Fran%C3%A7ais-L%C3%A9gende)<br>
+- [Améliorations du style](https://github.com/OsmAnd-Rendering/Hiking/wiki/FR%E2%80%94Fran%C3%A7ais-Am%C3%A9liorations-du-style-par-rapport-%C3%A0-Topo-d%E2%80%99OsmAnd)<br>
+- [Légende](https://github.com/OsmAnd-Rendering/Hiking/wiki/FR%E2%80%94Fran%C3%A7ais-L%C3%A9gende)<br>

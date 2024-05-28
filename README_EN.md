@@ -37,7 +37,7 @@ This style is based on OsmAnd's Topo style, among other things it improves the r
 ## <img src="https://github.com/osmandapp/OsmAnd-iOS/blob/master/Resources/Icons/ic_custom_info%403x.png" width="30" > Documentation
 <br>
 
-- [Styling improvements](https://github.com/OsmAnd-Rendering/Hiking/wiki/%F0%9F%87%AC%F0%9F%87%A7-English-Styling-improvements-over-OsmAnd's-Topo)<br>
-- [Legend](https://github.com/OsmAnd-Rendering/Hiking/wiki/%F0%9F%87%AC%F0%9F%87%A7-English-Legend)<br><br>
+- [Styling improvements](https://github.com/OsmAnd-Rendering/Hiking/wiki/EN%E2%80%94English-Styling-improvements-over-OsmAnd's-Topo)<br>
+- [Legend](https://github.com/OsmAnd-Rendering/Hiking/wiki/EN%E2%80%94English-Legend)<br><br>
 
 ---
