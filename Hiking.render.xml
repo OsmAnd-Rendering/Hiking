@@ -4036,10 +4036,20 @@
 
 			<!--			<case minzoom="14" tag="natural" value="hot_spring" icon="natural_hot_spring" shield="white_blue_square_shield"/>
 			<case minzoom="14" tag="natural" value="geyser" icon="natural_geyser" shield="white_blue_square_shield">
-			</case>-->
-			<apply_if maxzoom="16" additional="drinking_water=no" icon=""/>
-			<apply_if minzoom="16" additional="drinking_water=yes" icon_2="topo_drinking_water_yes_map"/>
-			<apply_if minzoom="16" additional="drinking_water=no" icon_2="topo_drinking_water_no_map"/>
+			</case>-->			<apply_if maxzoom="14" additional="drinking_water=no"   icon="" icon_2="" icon_3="" icon_4="" />
+			<apply_if minzoom="14" additional="drinking_water=yes"  icon_2="topo_drinking_water_yes_map" />
+			<apply_if minzoom="14" additional="drinking_water=no"   icon_2="topo_drinking_water_no_map" />
+
+			<apply_if minzoom="14" additional="intermittent=yes"    icon_3="nfs_access_overlay_unreachable" />
+			<apply_if minzoom="14" additional="seasonal=wet_season" icon_3="nfs_access_overlay_unreachable" /><!-- need OSMAND core change-->
+			<apply_if minzoom="14" additional="seasonal=yes"        icon_3="nfs_access_overlay_unreachable" /><!-- need OSMAND core change-->
+			
+			<apply_if minzoom="14" additional="intermittent=no"     icon_3="nfs_access_overlay_open" /> <!-- need OSMAND core change-->
+			<apply_if minzoom="14" additional="seasonal=no"         icon_3="nfs_access_overlay_open" /> <!-- need OSMAND core change-->
+			
+			<apply_if minzoom="14" additional="covered=yes"         icon="seamark_notice_addition_toptriangle" />
+			<apply_if minzoom="14" additional="refitted=yes"        icon="seamark_notice_addition_toptriangle" />
+
 		</switch>
 		<case minzoom="15" tag="waterway" value="waterfall" icon="topo_waterfall" shield="topo_waterfall_shield"/>
 		<case minzoom="15" tag="waterway" value="lock_gate" icon="waterway_lock_gate_small"/>
@@ -6112,8 +6122,19 @@
 					</apply>
 				</switch>
 			</apply>
+			<!-- new added: direct of slope from default sw state (contourlines.addon.render.xml) -->
+			<apply_if engine_v1="false" minzoom="15" pathIcon="stroke_brown_left" pathIconStep="100">
+				<apply_if contourColorScheme="light_brown" pathIcon="stroke_light_brown_left"/>
+				<apply_if contourColorScheme="dark_brown" pathIcon="stroke_dark_brown_left"/>
+				<apply_if contourColorScheme="red" pathIcon="stroke_red_left"/>
+				<apply_if contourColorScheme="green" pathIcon="stroke_green_left"/>
+				<apply_if contourColorScheme="yellow" pathIcon="stroke_yellow_left"/>
+				<apply_if contourColorScheme="white" pathIcon="stroke_white_left"/>
+				<apply_if contourColorScheme="orange" pathIcon="stroke_lightorange_left"/>
+				<apply_if contourColorScheme="black" pathIcon="stroke_dark_brown_left"/>
+			</apply_if>
+			<!-- new added: direct of slope from default sw state (contourlines.addon.render.xml) -->
 		</switch>
-
 		<switch engine_v1="false" strokeWidth="1.5">
 			<case minzoom="14" tag="natural" value="cliff" color="#737373" pathIcon="stroke_gray" pathIconStep="8"/>
 			<case minzoom="16" tag="natural" value="slope" color="#44bd6819" pathIcon="stroke_brown_right" pathIconStep="10">
