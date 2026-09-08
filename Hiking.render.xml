@@ -4040,9 +4040,9 @@
 			<apply_if minzoom="14" additional="drinking_water=yes"  icon_2="topo_drinking_water_yes_map" />
 			<apply_if minzoom="14" additional="drinking_water=no"   icon_2="topo_drinking_water_no_map" />
 
-			<apply_if minzoom="14" additional="intermittent=yes"    icon_3="nfs_access_overlay_temporarily_closed" />
-			<apply_if minzoom="14" additional="seasonal=wet_season" icon_3="nfs_access_overlay_unreachable" />
-			<apply_if minzoom="14" additional="seasonal=yes"        icon_3="nfs_access_overlay_unreachable" />
+			<apply_if minzoom="14" additional="intermittent=yes"    icon_3="nfs_access_overlay_unreachable" />
+			<apply_if minzoom="14" additional="seasonal=wet_season" icon_3="nfs_access_overlay_unreachable" /><!-- need OSMAND core change-->
+			<apply_if minzoom="14" additional="seasonal=yes"        icon_3="nfs_access_overlay_unreachable" /><!-- need OSMAND core change-->
 			
 			<apply_if minzoom="14" additional="intermittent=no"     icon_3="nfs_access_overlay_open" /> <!-- need OSMAND core change-->
 			<apply_if minzoom="14" additional="seasonal=no"         icon_3="nfs_access_overlay_open" /> <!-- need OSMAND core change-->
